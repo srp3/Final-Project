@@ -40,4 +40,3 @@ func make_new_ball(pos):
 		vector = vector.rotated(rand_range(-PI/3,-PI/6))
 	ball.linear_velocity = vector
 	add_child(ball)
-

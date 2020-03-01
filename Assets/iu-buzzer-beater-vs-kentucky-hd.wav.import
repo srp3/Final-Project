@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/iu-buzzer-beater-vs-kentucky-hd.wav-fe9a96062d644a9aa1de355c2d9b0a70.sample"
+
+[deps]
+
+source_file="res://Assets/iu-buzzer-beater-vs-kentucky-hd.wav"
+dest_files=[ "res://.import/iu-buzzer-beater-vs-kentucky-hd.wav-fe9a96062d644a9aa1de355c2d9b0a70.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
