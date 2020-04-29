@@ -3,7 +3,6 @@ extends RigidBody2D
 onready var Game = get_node("/root/Game")
 onready var Starting = get_node("/root/Game/Starting")
 
-onready var Swish = get_node("/root/Game/Swish")
 
 var _decay_rate = 0.8
 var _max_offset = 4
@@ -41,14 +40,12 @@ func _physics_process(delta):
 		if body.is_in_group("Tiles"):
 			Game.change_score(body.points)
 			add_color(1.0)
-			Swish.play()
 			body.kill()
 		if body.name == "Tiles":
-			Swish.play()
 			add_trauma(2.0)
 		if body.name == "Tiles":
-			Swish.play()
-			
+			pass
+		
 	rotate(_rotation)
 	_rotation += (_rotation_speed * linear_velocity.normalized().x)
 	

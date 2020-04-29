@@ -1,15 +1,15 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scripts/Tile.gd" type="Script" id=1]
-[ext_resource path="res://Assets/PNG/Elements/element (67).png" type="Texture" id=2]
+[ext_resource path="res://PNG (Transparent)/us flag.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 32, 16 )
+extents = Vector2( 64.5524, 31.3968 )
 
 [node name="Tile" type="StaticBody2D" groups=[
 "Tiles",
 ]]
-position = Vector2( 104, 296 )
+position = Vector2( 486.804, 277.472 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
@@ -32,6 +32,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="element (67)" type="Sprite" parent="."]
-position = Vector2( -5, -2 )
+[node name="us flag" type="Sprite" parent="."]
+position = Vector2( 0.0269814, -0.201004 )
+scale = Vector2( 0.418117, 0.388758 )
 texture = ExtResource( 2 )
